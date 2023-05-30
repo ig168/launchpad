@@ -63,6 +63,13 @@ header {
   background-color: rgba(37, 37, 37, 0.8);
 }
 
-/* 
- * YOUR CSS:
- */
+/* About */
+#paragraph-pic{
+  display: flex;
+  flex-direction:row;
+}
+#aboutmockup{
+  display: flex;
+  flex-grow:1;
+  flex-basis:2000px;
+}
