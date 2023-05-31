@@ -3,7 +3,7 @@
  * You can start adding your own CSS below line 60.
  */
 
-* {
+ * {
   box-sizing: border-box;
 }
 
@@ -64,12 +64,51 @@ header {
 }
 
 /* About */
-#paragraph-pic{
+#about p {
+  display: flex;
+  flex: 3;
+  margin: 10px;
+}
+#about #aboutmockup {
+  display: flex;
+  flex: 2;
+  align-self: flex-end;
+  margin: 10px;
+}
+#about > div{
   display: flex;
   flex-direction:row;
+  justify-content: space-around;
 }
-#aboutmockup{
+#staff > div{
   display: flex;
-  flex-grow:1;
-  flex-basis:2000px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
+#staff .staff-profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 320px;
+  margin: 20px;
+  /* flex: 0, 0, 33% */
+}
+#staff i {
+  width: 60px;
+  height: 60px;
+}
+#staff h3 {
+  font-size: xx-large;
+}
+#staff p {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+}
+
+
+/* Hello Ivan */
